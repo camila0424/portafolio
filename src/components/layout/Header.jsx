@@ -4,19 +4,14 @@ import LogoLetras from "../../images/CB.png";
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Función para scroll suave
   const smoothScroll = (id) => {
     setIsMenuOpen(false);
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
 
-  // Cerrar menú al hacer resize
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) setIsMenuOpen(false);
@@ -25,7 +20,6 @@ function Header() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Items del menú
   const navItems = [
     { id: "hero", name: "Inicio" },
     { id: "skills", name: "Habilidades" },
@@ -35,7 +29,7 @@ function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900/90 backdrop-blur-sm border-b border-gray-800 shadow-sm h-14">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black backdrop-blur-sm border-b border-gray-800 shadow-sm h-14">
       <nav className="container mx-auto flex items-center justify-between h-full px-4">
         {/* Logo */}
         <div
@@ -50,12 +44,12 @@ function Header() {
         </div>
 
         {/* Menú Desktop */}
-        <ul className="hidden md:flex items-center space-x-3 h-full">
+        <ul className="hidden md:flex items-center space-x-4 h-full">
           {navItems.map((item) => (
             <li key={item.id} className="h-full flex items-center">
               <button
                 onClick={() => smoothScroll(item.id)}
-                className="text-xs text-gray-300 hover:text-white px-2 py-1 h-full flex items-center transition-colors duration-200 hover:bg-gray-800/30"
+                className="text-sm text-gray-300 hover:text-white px-3 py-2 h-full flex items-center transition duration-200 hover:bg-gray-800/30"
               >
                 {item.name}
               </button>
@@ -63,50 +57,57 @@ function Header() {
           ))}
         </ul>
 
-        {/* Menú Mobile */}
+        {/* Botón Menú Mobile */}
         <button
-          className="md:hidden text-gray-300 p-1"
+          className="md:hidden text-gray-300 p-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          aria-label="Menú"
+          aria-label="Abrir menú"
         >
-          <svg className="w-5 h-5">
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
             {isMenuOpen ? (
               <path
-                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 strokeWidth={2}
                 d="M6 18L18 6M6 6l12 12"
               />
             ) : (
               <path
-                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 strokeWidth={2}
                 d="M4 6h16M4 12h16M4 18h16"
               />
             )}
           </svg>
         </button>
-
-        {/* Menú Mobile Abierto */}
-        {isMenuOpen && (
-          <div className="md:hidden absolute top-14 left-0 right-0 bg-gray-900 border-t border-gray-700 shadow-lg">
-            <ul className="flex flex-col">
-              {navItems.map((item) => (
-                <li
-                  key={item.id}
-                  className="border-b border-gray-800 last:border-b-0"
-                >
-                  <button
-                    onClick={() => smoothScroll(item.id)}
-                    className="w-full text-left text-gray-300 hover:text-white px-4 py-3 hover:bg-gray-800/50 transition-colors"
-                  >
-                    {item.name}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
       </nav>
+
+      {/* Menú Mobile Abierto */}
+      {isMenuOpen && (
+        <div className="md:hidden absolute top-14 left-0 right-0 bg-gray-900 border-t border-gray-700 shadow-lg w-full">
+          <ul className="flex flex-col">
+            {navItems.map((item) => (
+              <li
+                key={item.id}
+                className="border-b border-gray-800 last:border-b-0"
+              >
+                <button
+                  onClick={() => smoothScroll(item.id)}
+                  className="w-full text-left text-gray-300 hover:text-white px-4 py-3 hover:bg-gray-800/50 transition-colors"
+                >
+                  {item.name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </header>
   );
 }

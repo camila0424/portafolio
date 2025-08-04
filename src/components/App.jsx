@@ -1,6 +1,7 @@
 import "../styles/tailwind.css";
 
 import Header from "./layout/Header";
+import Contact from "./sections/Contact";
 import Hero from "./sections/Hero";
 import AboutMe from "./sections/about_me/AboutMe";
 import Skills from "./sections/skills/Skills";
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Skills />
+      <Contact />
     </>
   );
 }

@@ -8,13 +8,19 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="bg-black text-white min-h-screen flex flex-col items-center text-center pt-19"
+      className="bg-black text-white min-h-screen flex flex-col items-center text-center pt-20 px-4 pb-4 overflow-x-hidden"
     >
-      <div className="flex flex-wrap justify-center gap-4 max-w-7xl">
-        <p className="text-3xl italic bg-gradient-to-r from-purple-700 via-indigo-400 to-purple-700 bg-clip-text text-transparent mt-3 mb-5">
-          Estás son las tecnologías con las que actualmente trabajo.
+      <div className="max-w-7xl w-full flex flex-col items-center">
+        <p className="text-2xl italic bg-gradient-to-r from-purple-700 via-indigo-400 to-purple-700 bg-clip-text text-transparent mt-3 mb-5">
+          Estas son las{" "}
+          <span className="text-3xl bg-gradient-to-r from-purple-500 via-fuchsia-600 to-purple-700 bg-clip-text text-transparent">
+            Tecnologías
+          </span>{" "}
+          con las que actualmente trabajo.
         </p>
-        <div className="flex basis-full gap-4 justify-center">
+
+        {/* Contenedor de skills */}
+        <div className="flex flex-col md:flex-row md:flex-nowrap gap-4">
           <Frontend />
           <Backend />
           <Design />
