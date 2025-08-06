@@ -1,4 +1,5 @@
 import "../styles/tailwind.css";
+import Footer from "./layout/Footer";
 
 import Header from "./layout/Header";
 import Contact from "./sections/Contact";
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }

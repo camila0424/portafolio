@@ -19,7 +19,6 @@ function Skills() {
           con las que actualmente trabajo.
         </p>
 
-        {/* Contenedor de skills */}
         <div className="flex flex-col md:flex-row md:flex-nowrap gap-4">
           <Frontend />
           <Backend />
