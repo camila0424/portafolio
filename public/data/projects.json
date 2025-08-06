@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Mila Music",
+    "desc": "Esta plataforma (aún en construcción) está diseñada para encontrar docentes de música en cualquier lugar del mundo.",
+    "image": "/icons/projects/mila.png",
+    "techIcons": [
+      { "name": "React", "icon": "/icons/tech/react.svg" },
+      { "name": "Vite", "icon": "/icons/tech/vitejs.svg" },
+      { "name": "Sass", "icon": "/icons/tech/sass.svg" },
+      { "name": "Figma", "icon": "/icons/tech/figma.svg" },
+      { "name": "Vercel", "icon": "/icons/tech/vercel.svg" }
+    ],
+    "github": "https://github.com/camila0424/Mila_Music.git",
+    "demo": "https://mila-music-git-main-camila-s-projects-f41f8c26.vercel.app/"
+  },
+  {
+    "title": "Meal App",
+    "desc": "Aplicación para ver recetas de comidas, con su modo de preparación y permite filtrar por tipos de carne.",
+    "image": "/icons/projects/recetas.png",
+    "techIcons": [
+      { "name": "React Native", "icon": "/icons/tech/react.svg" },
+      { "name": "Expo", "icon": "/icons/tech/javascript.svg" },
+      { "name": "JavaScript", "icon": "/icons/tech/javascript.svg" }
+    ],
+    "github": "https://github.com/camila0424/meal-app-react-native.git",
+    "demo": null
+  },
+  {
+    "title": "Listado de usuarios",
+    "desc": "Ejercicio práctico para ver, crear, listar usuarios y añadir a favoritos con permanencia en localStorage",
+    "image": "/icons/projects/listado.png",
+    "techIcons": [
+      { "name": "React", "icon": "/icons/tech/react.svg" },
+      { "name": "JavaScript", "icon": "/icons/tech/javascript.svg" },
+      { "name": "Css", "icon": "/icons/tech/css.svg" },
+      { "name": "Vite", "icon": "/icons/tech/vitejs.svg" }
+    ],
+    "github": "https://github.com/camila0424/listado_de_contactos.git",
+    "demo": "https://camila0424.github.io/listado_de_contactos/"
+  },
+  {
+    "title": "Harry Potter",
+    "desc": "Aplicación para encontrar los personajes de Harry Potter, filtrarlos por sus casas y ver su información.",
+    "image": "/icons/projects/harry.png",
+    "techIcons": [
+      { "name": "React", "icon": "/icons/tech/react.svg" },
+      { "name": "NodeJs", "icon": "/icons/tech/javascript.svg" },
+      { "name": "ExpressJs", "icon": "/icons/tech/express.svg" },
+      { "name": "Html", "icon": "/icons/tech/html5.svg" },
+      { "name": "Css", "icon": "/icons/tech/css.svg" }
+    ],
+    "github": "https://github.com/camila0424/enciclopedia-Harry-Potter.git",
+    "demo": "https://camila0424.github.io/enciclopedia-Harry-Potter/"
+  },
+  {
+    "title": "The simpson backend",
+    "desc": "API de frases de Los Simpsons",
+    "image": "/icons/projects/simpsons.png",
+    "techIcons": [
+      { "name": "React", "icon": "/icons/tech/react.svg" },
+      { "name": "NodeJs", "icon": "/icons/tech/javascript.svg" },
+      { "name": "ExpressJs", "icon": "/icons/tech/express.svg" },
+      { "name": "MySql", "icon": "/icons/tech/mysql.svg" },
+      { "name": "Postman", "icon": "/icons/tech/postman.svg" }
+    ],
+    "github": "https://github.com/camila0424/the-simpsons-backend.git",
+    "demo": null
+  },
+  {
+    "title": "Adacurri (proyecto grupal)",
+    "desc": "Aplicación web diseñada para crear una tarjeta compartible que incluya los datos de tu curriculum vitae",
+    "image": "/icons/projects/adacurri.png",
+    "techIcons": [
+      { "name": "Html", "icon": "/icons/tech/html5.svg" },
+      { "name": "Sass", "icon": "/icons/tech/sass.svg" },
+      { "name": "Vite", "icon": "/icons/tech/vitejs.svg" },
+      { "name": "JavaScript", "icon": "/icons/tech/javascript.svg" },
+      { "name": "PhotoShop", "icon": "/icons/tech/photoshop.svg" }
+    ],
+    "github": "https://github.com/camila0424/create-your-cv-card-.git",
+    "demo": "https://camila0424.github.io/create-your-cv-card-/index.html"
+  }
+]
