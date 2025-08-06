@@ -92,6 +92,10 @@ function Contact() {
 
           {/* Formulario de contacto */}
           <div>
+            <h4 className="text-lg  bg-gradient-to-r from-purple-700 via-indigo-400 to-purple-700 bg-clip-text text-transparent mt-3 mb-5">
+              Puedes enviarme un mensaje directo en este formulario. <br />
+              Te responderé tan pronto como lo vea.
+            </h4>
             <form onSubmit={handleSubmit} className="space-y-4">
               <input
                 name="name"
@@ -100,7 +104,7 @@ function Contact() {
                 type="text"
                 placeholder="Nombre"
                 required
-                className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-fuchsia-600"
+                className="w-full p-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-fuchsia-600"
               />
               <input
                 name="email"
@@ -109,7 +113,7 @@ function Contact() {
                 type="email"
                 placeholder="Email"
                 required
-                className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-fuchsia-600"
+                className="w-full p-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-fuchsia-600"
               />
               <textarea
                 name="message"
@@ -118,7 +122,7 @@ function Contact() {
                 rows="5"
                 placeholder="Mensaje"
                 required
-                className="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-fuchsia-600"
+                className="w-full h-28 p-2 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-fuchsia-600"
               />
               <button
                 type="submit"

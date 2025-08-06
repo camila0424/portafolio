@@ -8,7 +8,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="bg-black text-white min-h-screen flex flex-col items-center text-center pt-20 px-4 pb-4 overflow-x-hidden"
+      className="bg-black text-white min-h-screen flex flex-col items-center text-center pt-16 px-4 pb-4 overflow-x-hidden"
     >
       <div className="max-w-7xl w-full flex flex-col items-center">
         <p className="text-2xl italic bg-gradient-to-r from-purple-700 via-indigo-400 to-purple-700 bg-clip-text text-transparent mt-3 mb-5">

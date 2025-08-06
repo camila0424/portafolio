@@ -1,11 +1,11 @@
 function Experience() {
   return (
-    <section className="bg-black text-white flex flex-col items-center px-4 pt-2">
+    <section className="bg-gray-950 text-white flex flex-col items-center px-4 mt-5 mb-5 ">
       <h3 className="text-2xl italic bg-gradient-to-r from-purple-700 via-indigo-400 to-purple-700 bg-clip-text text-transparent mb-7 text-center max-w-3xl">
         Otras Áreas de experiencia
       </h3>
 
-      <div className="max-w-7xl w-full flex flex-wrap justify-center gap-4">
+      <div className="max-w-7xl w-full flex flex-wrap justify-center gap-4 mb-4">
         {[
           {
             period: "Academia Jhon Philip Sousa 2/217 - 11/2018",
