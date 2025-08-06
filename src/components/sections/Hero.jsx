@@ -26,7 +26,7 @@ function Hero() {
         />
 
         {/* Nombre */}
-        <h2 className="text-3xl md:text-5xl md:-mt-10 font-bold bg-gradient-to-r from-purple-500 via-fuchsia-600 to-purple-700 bg-clip-text text-transparent">
+        <h2 className="text-3xl md:text-5xl md:-mt-10 font-bold bg-gradient-to-r from-purple-500 via-fuchsia-600 to-purple-700 bg-clip-text text-transparent pb-2.5">
           Camila Bedoya
         </h2>
 

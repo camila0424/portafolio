@@ -1,3 +1,4 @@
+import GitHub from "../../../images/social/gitHub_dark.svg";
 function ProjectCard({ project }) {
   return (
     <div className="px-4 py-6 bg-gray-900 rounded-lg border border-gray-800 shadow-lg shadow-purple-600/20 hover:shadow-purple-600/40 transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
@@ -36,16 +37,17 @@ function ProjectCard({ project }) {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 bg-purple-900 hover:bg-purple-800 text-white py-2 px-4 rounded text-center transition-colors text-sm font-medium"
+            className="inline-flex items-center justify-center bg-purple-700 hover:bg-purple-900 shadow-lg shadow-purple-600/50 text-white py-2 px-4 rounded transition-colors text-sm font-medium space-x-2"
           >
-            GitHub
+            <span>Ver código en</span>
+            <img src={GitHub} alt="GitHub" className="w-4 h-4" />
           </a>
           {project.demo && (
             <a
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 bg-fuchsia-700 hover:bg-fuchsia-600 text-white py-2 px-4 rounded text-center transition-colors text-sm font-medium"
+              className="flex-1 bg-fuchsia-700 hover:bg-fuchsia-600 shadow-lg shadow-purple-600/50 text-white py-2 px-4 rounded text-center transition-colors text-sm font-medium"
             >
               Live Demo
             </a>
