@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import Tailwind from "../../../images/technologies/tailwindcss.svg";
+import Vite from "../../../images/technologies/vitejs.svg";
+import React from "../../../images/technologies/react.svg";
 
 function Projects() {
   const [projects, setProjects] = useState([]);
@@ -27,12 +29,32 @@ function Projects() {
         está diseñado con{" "}
         <span className="relative inline-block group">
           <img
+            src={React}
+            alt="React"
+            className="w-6 h-6 inline-block align-middle"
+          />
+          <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+            React
+          </span>
+        </span>
+        <span className="relative inline-block group">
+          <img
             src={Tailwind}
             alt="TailwindCss"
             className="w-6 h-6 inline-block align-middle"
           />
           <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
             TailwindCss
+          </span>
+        </span>
+        <span className="relative inline-block group">
+          <img
+            src={Vite}
+            alt="Vite"
+            className="w-6 h-6 inline-block align-middle"
+          />
+          <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs text-white bg-gray-800 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+            Vite
           </span>
         </span>
       </p>
