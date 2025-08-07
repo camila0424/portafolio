@@ -8,24 +8,11 @@ function Experience() {
       <div className="max-w-7xl w-full flex flex-wrap justify-center gap-4 mb-4">
         {[
           {
-            period: "Academia Jhon Philip Sousa 2/217 - 11/2018",
-            role: "Docente de canto e iniciacion musical",
+            period: "Escuelas de música en modalidad presencial 2017/2021",
+            role: "Docente de canto, guitarra infantil, ukulele, iniciación musical y piano.",
           },
           {
-            period:
-              "El Club de Música S.A.S. - Academia TUTEMPO 6/2019 - 3/2020",
-            role: "Docente de canto.",
-          },
-          {
-            period: "Teachers Group 3/2019 - 9/2020",
-            role: "Docente de ukulele.",
-          },
-          {
-            period: "Escuela de Artes OPRA 9/2020- 8/2021",
-            role: "Docente de canto y guitarra infantil.",
-          },
-          {
-            period: "Coach Vocal Freelance Online 2017/2025",
+            period: "Coach Vocal Freelance Online 2012/2025",
             role: "Docente particular de canto, piano, guitarra y ukulele.",
           },
         ].map(({ period, role }, i) => (
