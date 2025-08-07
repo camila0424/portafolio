@@ -49,8 +49,8 @@
       { "name": "Html", "icon": "/icons/tech/html5.svg" },
       { "name": "Css", "icon": "/icons/tech/css.svg" }
     ],
-    "github": "https://github.com/camila0424/enciclopedia-Harry-Potter.git",
-    "demo": "https://camila0424.github.io/enciclopedia-Harry-Potter/"
+    "github": "https://github.com/camila0424/harry-potter-actors.git",
+    "demo": "http://beta.adalab.es/modulo-3-evaluacion-final-camila0424/"
   },
   {
     "title": "The simpson backend",

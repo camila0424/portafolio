@@ -3,7 +3,7 @@ import Linkedin from "../../images/social/linkedin.svg";
 function Footer() {
   return (
     <>
-      <section className="bg-gray-900 py-8 px-4 ">
+      <section className="bg-gray-900 py-4 px-4 ">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400 mb-4">
             © 2025 CamilaBedoya. Todos los derechos reservados.
