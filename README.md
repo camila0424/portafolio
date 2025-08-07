@@ -17,9 +17,9 @@ Este proyecto está desarrollado con **React + Vite**, utilizando **Tailwind CSS
 ## Tecnologías Principales
 
 <p>
-  <img src="./src/images/technologies/react.svg" alt="React" width="40" />
-  <img src="./src/images/technologies/vitejs.svg" alt="Vite" width="40" />
-  <img src="./src/images/technologies/tailwindcss.svg" alt="Tailwind" width="40" />
+  <img src="./src/images/technologies/react.svg" alt="React" title="React" width="40" />
+  <img src="./src/images/technologies/vitejs.svg" alt="Vite" title="Vite" width="40" />
+  <img src="./src/images/technologies/tailwindcss.svg" alt="Tailwind CSS" title="Tailwind CSS" width="40" />
 </p>
 
 ---
