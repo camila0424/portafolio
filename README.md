@@ -1,4 +1,4 @@
-![Banner de Camila Bedoya](screens/hero.png)
+![Banner de Camila Bedoya](./public/screens/hero.png)
 
 # Portafolio Web - Camila Bedoya
 
@@ -9,16 +9,18 @@ Este proyecto está desarrollado con **React + Vite**, utilizando **Tailwind CSS
 
 ## Demo
 
-🔗 [Ver Portafolio en Vivo](https://portafolio-livid-six.vercel.app/)  
-📂 [Repositorio en GitHub](https://github.com/camila0424/portafolio.git)
+[Ver Portafolio en Vivo](https://portafolio-livid-six.vercel.app/)  
+[Repositorio en GitHub](https://github.com/camila0424/portafolio.git)
 
 ---
 
 ## Tecnologías Principales
 
-![React](./src/images/technologies/react.svg)  
-![Vite](./src/images/technologies/vitejs.svg)  
-![Tailwind CSS](./src/images/technologies/tailwindcss.svg)
+<p>
+  <img src="./src/images/technologies/react.svg" alt="React" width="40" />
+  <img src="./src/images/technologies/vitejs.svg" alt="Vite" width="40" />
+  <img src="./src/images/technologies/tailwindcss.svg" alt="Tailwind" width="40" />
+</p>
 
 ---
 
@@ -34,11 +36,11 @@ Este proyecto está desarrollado con **React + Vite**, utilizando **Tailwind CSS
 
 ## Vista de contacto
 
-![Contacto Camila](screens/contact.png)
+![Contacto Camila](./public/screens/contact.png)
 
 ---
 
 ### 📫 Conecta conmigo
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/camila-bedoya/)
-- 📧 milabs.esp24@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/camila-bedoya/)
+- milabs.esp24@gmail.com
