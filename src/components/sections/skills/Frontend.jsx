@@ -7,49 +7,50 @@ function Frontend() {
 
       <p className="leading-tight flex flex-col gap-2 text-sm">
         <span
-          title="Librería de JavaScript para construir interfaces web"
+          title="Librería de JavaScript para construir interfaces web reactivas"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           React
         </span>
         <span
-          title="Framework para crear apps móviles usando React"
+          title="Framework para crear aplicaciones móviles nativas con React"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           React Native
         </span>
         <span
-          title="Framework para acelerar el desarrollo con React Native"
+          title="Conjunto de herramientas para acelerar el desarrollo con React Native"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Expo
         </span>
         <span
-          title="Lenguaje base del desarrollo web"
+          title="Lenguaje base para desarrollo web dinámico y scripts"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           JavaScript
         </span>
         <span
-          title="Estilos en sitios web"
+          title="Lenguaje para estilizar páginas web con reglas CSS"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           CSS
         </span>
         <span
-          title="Preprocesador CSS con funcionalidades avanzadas"
+          title="Preprocesador CSS que añade funcionalidades como variables y anidación"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Sass
         </span>
         <span
-          title="Plataforma para desplegar apps frontend rápidamente"
+          title="Framework CSS para diseño rápido y responsivo con utilidades"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
-          Vercel
+          TailwindCSS
         </span>
       </p>
     </div>
   );
 }
+
 export default Frontend;

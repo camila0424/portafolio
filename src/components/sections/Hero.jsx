@@ -32,10 +32,24 @@ function Hero() {
         </h3>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-3 md:-mt-3">
-          <button className="bg-purple-600 hover:bg-black shadow-lg shadow-purple-600/50 text-white px-6 py-2 rounded text-lg transition">
+          <button
+            onClick={() =>
+              document
+                .getElementById("projects")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="bg-purple-600 hover:bg-black shadow-lg shadow-purple-600/50 text-white px-6 py-2 rounded text-lg transition"
+          >
             Ver proyectos
           </button>
-          <button className="bg-purple-600 hover:bg-black shadow-lg shadow-purple-600/50 text-white px-6 py-2 rounded text-lg transition">
+          <button
+            onClick={() =>
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="bg-purple-600 hover:bg-black shadow-lg shadow-purple-600/50 text-white px-6 py-2 rounded text-lg transition"
+          >
             Contacto
           </button>
         </div>

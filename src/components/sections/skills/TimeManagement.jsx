@@ -13,28 +13,34 @@ function TimeManagement() {
           Trello
         </span>
         <span
-          title="Organización personal y de equipo: notas, bases de datos, wikis"
+          title="Espacio de trabajo para notas, bases de datos, tareas y documentación"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Notion
         </span>
         <span
-          title="Gestión de proyectos en equipo"
+          title="Plataforma para planificación y seguimiento de proyectos en equipo"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Monday
         </span>
         <span
-          title="Organización de eventos, tareas y reuniones"
+          title="Gestión de eventos, reuniones y recordatorios en la nube"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Google Calendar
         </span>
         <span
-          title="Tableros de proyectos dentro de GitHub"
+          title="Herramienta de planificación integrada en GitHub para organizar tareas y proyectos"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           GitHub Projects
+        </span>
+        <span
+          title="Plataforma de comunicación en equipo con canales, hilos y notificaciones"
+          className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
+        >
+          Slack
         </span>
       </p>
     </div>

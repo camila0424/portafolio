@@ -6,22 +6,28 @@ function WorkflowTools() {
       </h3>
       <p className="leading-tight flex flex-col gap-2 text-sm">
         <span
-          title="Plataforma para control de versiones y colaboración"
+          title="Plataforma para control de versiones y colaboración entre desarrolladores"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           GitHub
         </span>
         <span
-          title="Testing y documentación de APIs"
-          className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
-        >
-          Postman
-        </span>
-        <span
-          title="Plataforma para despliegue y hosting continuo"
+          title="Plataforma para despliegue y hosting de aplicaciones web"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Vercel
+        </span>
+        <span
+          title="Marco de trabajo ágil para gestión de proyectos en equipo"
+          className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
+        >
+          Scrum
+        </span>
+        <span
+          title="Metodología visual para organizar tareas y flujos de trabajo"
+          className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
+        >
+          Kanban
         </span>
       </p>
     </div>

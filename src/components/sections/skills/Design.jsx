@@ -6,31 +6,38 @@ function Design() {
       </h3>
       <p className="leading-tight flex flex-col gap-2 text-sm">
         <span
-          title="Diseño de interfaces y prototipos"
+          title="Diseño de interfaces, prototipos y sistemas de diseño colaborativos"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Figma
         </span>
         <span
-          title="Diseño vectorial e ilustración"
+          title="Diseño gráfico basado en vectores para logotipos, ilustraciones y branding"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Adobe Illustrator
         </span>
         <span
-          title="Edición y creación de imágenes"
+          title="Edición de imágenes, retoque fotográfico y creación de gráficos digitales"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Adobe Photoshop
         </span>
         <span
-          title="Presentaciones interactivas"
+          title="Creación de presentaciones visuales e interactivas para comunicar ideas"
           className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
         >
           Prezi
+        </span>
+        <span
+          title="Diseño gráfico accesible para redes sociales, presentaciones y contenido visual"
+          className="inline-block px-3 py-2 bg-gray-800 text-white rounded-full border border-purple-500 shadow-sm shadow-purple-500/50 hover:bg-purple-900 hover:shadow-purple-500 transition-all duration-200 cursor-help"
+        >
+          Canva
         </span>
       </p>
     </div>
   );
 }
+
 export default Design;
