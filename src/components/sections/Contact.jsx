@@ -47,14 +47,14 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="bg-gray-950 text-white min-h-6 flex flex-col items-center text-center pt-16 pb-10"
+      className="bg-gray-950 text-white min-h-6 flex flex-col items-center text-center pt-16 pb-10 px-8 md:px-8"
     >
       <div className="max-w-5xl mx-auto">
         <h3 className=" font-bold mb-4 text-center text-6xl bg-gradient-to-r from-purple-500 via-fuchsia-600 to-purple-700 bg-clip-text text-transparent">
           Puedes contactarme
         </h3>
         <p className="text-center text-gray-400 mb-12">
-          Si te gustó mi trabajo y te quieres que haga parte de tu equipo
+          Si te gustó mi trabajo y quieres que haga parte de tu equipo
           ¡Hablemos!
         </p>
 
