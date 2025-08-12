@@ -1,5 +1,20 @@
 [
   {
+    "title": "Juega Piedra-Papel-Tijera",
+    "desc": "Es un juego de competencia, diseñado para juegar 1 a 1 contra el ordenador ",
+    "image": "/icons/projects/piedra_papel_tijera.png",
+    "techIcons": [
+      { "name": "React", "icon": "/icons/tech/react.svg" },
+      { "name": "Vite", "icon": "/icons/tech/vitejs.svg" },
+      { "name": "TailwindCSS", "icon": "/icons/tech/tailwindcss.svg" },
+
+      { "name": "Figma", "icon": "/icons/tech/figma.svg" },
+      { "name": "Vercel", "icon": "/icons/tech/vercel.svg" }
+    ],
+    "github": "https://github.com/camila0424/juega-piedra-papel-o-tijera.git",
+    "demo": "https://juega-piedra-papel-o-tijera.vercel.app/"
+  },
+  {
     "title": "Mila Music",
     "desc": "Esta plataforma (aún en construcción) está diseñada para encontrar docentes de música en cualquier lugar del mundo.",
     "image": "/icons/projects/mila.png",
