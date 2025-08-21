@@ -1,6 +1,14 @@
+import { JSX } from "react";
 import Logo from "../../images/logo.png";
 
-function Hero() {
+function Hero(): JSX.Element {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="hero"
@@ -33,21 +41,13 @@ function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-3 md:-mt-3">
           <button
-            onClick={() =>
-              document
-                .getElementById("projects")
-                ?.scrollIntoView({ behavior: "smooth" })
-            }
+            onClick={() => scrollToSection("projects")}
             className="bg-purple-600 hover:bg-black shadow-lg shadow-purple-600/50 text-white px-6 py-2 rounded text-lg transition"
           >
             Ver proyectos
           </button>
           <button
-            onClick={() =>
-              document
-                .getElementById("contact")
-                ?.scrollIntoView({ behavior: "smooth" })
-            }
+            onClick={() => scrollToSection("contact")}
             className="bg-purple-600 hover:bg-black shadow-lg shadow-purple-600/50 text-white px-6 py-2 rounded text-lg transition"
           >
             Contacto

@@ -8,7 +8,13 @@
     "moduleResolution": "node",          // Resuelve módulos como Node
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,                // Omite chequear tipos de librerías
-    "baseUrl": "src"                     // Ruta base para imports
+    "baseUrl": "src",                    // Ruta base para imports
+    "allowJs": true,                      // Permite archivos JS
+    "resolveJsonModule": true,            // Permite importar JSON
+    "noImplicitAny": true,                // Evita variables sin tipo explícito
+    "strictNullChecks": true,             // Comprobación estricta de null/undefined
+    "types": ["react", "react-dom"]       // Asegura que los tipos de React estén disponibles
   },
-  "include": ["src"]                     // Carpeta donde está tu código
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

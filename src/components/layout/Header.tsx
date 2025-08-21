@@ -1,10 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, JSX } from "react";
 import LogoLetras from "../../images/CB.png";
 
-function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+interface NavItem {
+  id: string;
+  name: string;
+}
 
-  const smoothScroll = (id) => {
+function Header(): JSX.Element {
+  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+
+  const smoothScroll = (id: string) => {
     setIsMenuOpen(false);
     const element = document.getElementById(id);
     if (element) {
@@ -20,7 +25,7 @@ function Header() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const navItems = [
+  const navItems: NavItem[] = [
     { id: "hero", name: "Inicio" },
     { id: "skills", name: "Habilidades" },
     { id: "projects", name: "Proyectos" },
