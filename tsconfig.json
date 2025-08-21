@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                     // Versión de JS a compilar
+    "module": "ESNext",                  // Sistema de módulos
+    "jsx": "react-jsx",                  // Para React 17+ JSX
+    "strict": true,                      // Activa comprobaciones estrictas
+    "esModuleInterop": true,             // Para importar módulos correctamente
+    "moduleResolution": "node",          // Resuelve módulos como Node
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                // Omite chequear tipos de librerías
+    "baseUrl": "src"                     // Ruta base para imports
+  },
+  "include": ["src"]                     // Carpeta donde está tu código
+}
