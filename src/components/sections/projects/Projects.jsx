@@ -101,6 +101,10 @@ function Projects() {
         </span>
       </p>
 
+      <p className="text-base italic text-blue-300 mb-5">
+        Toca los íconos de las tecnologías para ver su nombre
+      </p>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
